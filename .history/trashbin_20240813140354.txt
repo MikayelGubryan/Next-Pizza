@@ -1,0 +1,583 @@
+full
+ 
+rounded
+ 
+size={18}
+ 
+className
+ 
+        <div className={cn('flex items-center gap-1 bg-gray-50 rounded-2xl h-[52px] px-4', className)}>
+
+ 
+</Link>
+ 
+Cart
+ 
+ProductItem
+ 
+import { connect } from "http2";
+
+ 
+.map((obj,index) => ({...obj, id: index + 1}))
+ 
+           generateProductItem({ productId: pizza1.id, pizzaType: 3, size: 20 }), generateProductItem({ productId: pizza1.id, pizzaType: 1, size: 20 }),
+
+ 
+ generateProductItem({
+                productId: pizza1.id,
+                pizzaType: 1,
+                size: 20
+            })
+ 
+generateProductItem
+ 
+const generateProductItem = ({
+    productId,
+    pizzaType,
+    size,
+} : {
+    productId : number;
+    pizzaType? : 1 | 2;
+    size?: 20 | 30 | 40;
+}) => {
+    return {
+        productId,
+        price: randomDecimalNumber(190, 600),
+        pizzaType,
+        size,
+    } as Prisma.ProductItemUncheckedCreateInput;
+}
+
+ 
+generateProductItem
+ 
+
+const randomDecimalNumber = (min: number, max: number) => {
+    return Math.floor(Math.random() * (max - min) * 10 + min * 10) / 10;   
+}
+
+const generateProductItem = ({
+    productId,
+    pizzaType,
+    size,
+} : {
+    productId : number;
+    pizzaType? : 1 | 2;
+    size?: 20 | 30 | 40;
+}) => {
+    return {
+        productId,
+        price: randomDecimalNumber(190, 600),
+        pizzaType,
+        size,
+    } as Prisma.ProductItemUncheckedCreateInput;
+}
+ 
+import { Prisma } from "@prisma/client";
+ 
+number
+ 
+ {
+                productId: pizza1.id,
+                price: 300,
+                pizzaType: 2,
+                size: 30,
+            },
+            {
+                productId: pizza1.id,
+                price: 300,
+                pizzaType: 2,
+                 size: 30,
+            }
+ 
+ (Math.random() * 100;)
+ 
+
+} 
+ 
+/public/pizzaMargherita.png
+ 
+https://i.pravatar.cc/300?u=wewe231d@example.com"
+ 
+rice: 100,
+ 
+ imageUrl:     
+ 
+          'https://media.dodostatic.net/image/r:584x584/11EE7D61706D472F9A5D71EB94149304.webp',
+
+ 
+          'https://media.dodostatic.net/:233x233/11EE7D610CF7E265B7C72BE5AE757CA7.webp
+ 
+r
+ 
+image
+ 
+https://media.dodostatic.et/image/r:233x233/11EE7D61304FAF5A98A6958F2BB2D260.webp
+ 
+.map((obj,index) => ({...obj, id: index + 1}))
+ 
+         {
+            name: "Pizza",
+         },
+         {
+            name: "Burger",
+         }
+        ]
+ 
+{
+            name: 'Pizza',
+            price: 10,
+            imageUrl: "https://i.pravatar.cc/300?u=5N5r5@example.com",
+          },
+          {
+            name: "Burger",
+            price: 5,
+            imageUrl: "https://i.pravatar.cc/300?u=wewe231d@example.com",
+          },
+        ].map((obj,index) => ({...obj, id: index + 1})),
+ 
+    { id: 1, name: 'Sides'},
+    { id: 2, name: 'Drinks'},
+    { id: 3, name: 'Desserts'},
+    { id: 4, name: 'Salads'},
+ 
+id: 0, 
+ 
+export const await = prisma.ingredient.createMany({
+    data: [
+      {
+        name: 'Сырный бортик',
+        price: 179,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/99f5cb91225b4875bd06a26d2e842106.png',
+      },
+      {
+        name: 'Сливочная моцарелла',
+        price: 79,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/cdea869ef287426386ed634e6099a5ba.png',
+      },
+      {
+        name: 'Сыры чеддер и пармезан',
+        price: 79,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796',
+      },
+      {
+        name: 'Острый перец халапеньо',
+        price: 59,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/11ee95b6bfdf98fb88a113db92d7b3df.png',
+      },
+      {
+        name: 'Нежный цыпленок',
+        price: 79,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA5B328D35A',
+      },
+      {
+        name: 'Шампиньоны',
+        price: 59,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA67259A324',
+      },
+      {
+        name: 'Бекон',
+        price: 79,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA637AAB68F',
+      },
+      {
+        name: 'Ветчина',
+        price: 79,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA61B9A8D61',
+      },
+      {
+        name: 'Пикантная пепперони',
+        price: 79,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA6258199C3',
+      },
+      {
+        name: 'Острая чоризо',
+        price: 79,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA62D5D6027',
+      },
+      {
+        name: 'Маринованные огурчики',
+        price: 59,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/000D3A21DA51A81211E9EA89958D782B',
+      },
+      {
+        name: 'Свежие томаты',
+        price: 59,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA7AC1A1D67',
+      },
+      {
+        name: 'Красный лук',
+        price: 59,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA60AE6464C',
+      },
+      {
+        name: 'Сочные ананасы',
+        price: 59,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/000D3A21DA51A81211E9AFA6795BA2A0',
+      },
+      {
+        name: 'Итальянские травы',
+        price: 39,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/370dac9ed21e4bffaf9bc2618d258734.png',
+      },
+      {
+        name: 'Сладкий перец',
+        price: 59,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA63F774C1B',
+      },
+      {
+        name: 'Кубики брынзы',
+        price: 79,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/000D3A39D824A82E11E9AFA6B0FFC349',
+      },
+      {
+        name: 'Митболы',
+        price: 79,
+        imageUrl:
+          'https://cdn.dodostatic.net/static/Img/Ingredients/b2f3a5d5afe44516a93cfc0d2ee60088.png',
+      },
+    ],
+  });
+ 
+// Set to current date/time or provide a specific date
+ 
+        // Create user in the database
+
+ 
+        // Optional: Add basic validation
+
+ 
+import { prisma } from "@/prisma/prisma-client";
+import { NextResponse, NextRequest } from "next/server";
+ 
+            categoryName : "Pizza",
+ 
+            categoryId: 1,
+ 
+            categoryId: 1,
+
+ 
+            price: 5,
+
+ 
+            price: 10,
+
+ 
+            image: "https://i.pravatar.cc/300?u=wewe231d@example.com"
+
+ 
+            image: "https://i.pravatar.cc/300?u=5N5r5@example.com"
+
+ 
+await prisma.user.deleteMany({});
+ 
+            verified: new Date(),   
+
+ 
+            verified: new Date(),   
+
+ 
+            verified: new Date(),
+
+ 
+            verified: new Date(),
+ 
+            image: "https://i.pravatar.cc/300?u=5N5r5@example.com"
+
+ 
+            name: 'John Doe',
+            email: 'j9qQy@example.com',
+            emailVerified: new Date(),
+            image: 'https://i.pravatar.cc/300?u=j9qQy@example.com'
+ 
+import {Prisma, PrismaClient} from '@prisma/client'
+ 
+    expiresAt DateTime @default(now())
+
+ 
+    updatedAt DateTime @updatedAt
+
+ 
+    cart Cart @relation(fields: [cartId], references: [id])
+    cartId Int?
+ 
+    cart Cart @relation(fields: [cartId], references: [id])
+
+ 
+    pizzaSize Int?
+    pizzaType Int?
+ 
+risma.user.create({data: {name: "John Doe"}});
+ 
+    return NextResponse.json({user});
+ 
+     name: 'John Doe',
+ 
+import {Next}
+ 
+zexport function POST() {
+    
+}
+
+export function GET() {
+    
+}`
+ 
+O_SSL="postgres://default:pg8jtKrQIVx4@ep-young-haze-a2xgnan0-pooler.eu-central-1.aws.neon.tech:5432/verceldb"
+
+ 
+POSTGRES_PRISMA_URL="postgres://default:pg8jtKrQIVx4@ep-young-haze-a2xgnan0-pooler.eu-central-1.aws.neon.tech:5432/verceldb?sslmode=require&pgbouncer=true&connect_timeout=15"
+POSTGRES_URL_N
+ 
+POSTGRES_USER="default"
+POSTGRES_HOST="ep-young-haze-a2xgnan0-pooler.eu-central-1.aws.neon.tech"
+POSTGRES_PASSWORD="pg8jtKrQIVx4"
+POSTGRES_DATABASE="verceldb"
+ 
+export  prisma
+ 
+default
+ 
+categoryId
+ 
+setActiveCategoryId
+ 
+const activeIndex = 0;
+
+ 
+itle,
+ 
+            intersectionRef.current.scrollIntoView({ behavior: 'smooth' });
+
+ 
+        root: null,
+        rootMargin: '0px',
+ 
+Маргарита
+ 
+                    count={i % 2}
+
+ 
+{ className }
+ 
+ategoryProducts['products']
+ 
+/* Component content */}
+ 
+              <ProductCard 
+                id={0} 
+                name="Pizza"
+                price={10} 
+                imageUrl="https://media.dodostatic.net/image/r:292x292/11EF49CDEA22CF4EA2DA4DDE0BA221FC.avif"   
+              />
+ 
+                className="w-full"
+ 
+                imageSize = "w-[215px] h-[215px]"
+
+ 
+imageSize
+ 
+imageSize
+ 
+                imageSize = "w-[215px] h-[215px]"
+ 
+className
+ 
+https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+ 
+ List of Items
+ 
+w-5 h-5
+ 
+16
+ 
+                    Add to cart
+
+ 
+className?: string;
+ 
+-full bg-white rounded-2xl shadow-lg shadow-black/5 overflow-hidden', 
+ 
+HTMLInputElemen
+ 
+e => onChangeSearchInput(e..value)
+ 
+target
+ 
+how less
+ 
+ <div className="mb-5">
+          <Input placeholder={searchInputPlaceholder} className="bg-gray-50 border-none" />
+        </div>
+ 
+defaultValue
+ 
+'use Client'
+
+ 
+onCheckedChange
+ 
+value
+ 
+            text={item.text}
+
+ 
+            key={String(item.value)}
+
+ 
+{(showAll ? items : defaultItems || 
+ 
+ className }
+ 
+cn('sticky top-0 bg-white shadow-lg shadow-black/5 z-10', className)}
+ 
+import { cn } from '@/lib/utils';
+
+ 
+10
+ 
+      // Update localValues when the external value prop changes
+
+ 
+          <Input type="number" placeholder="0" min={0} max={1000} defaultValue={0} />
+          <Input type="number" min={100} max={1000} placeholder="1000" />
+ 
+in={100} max={30000}
+ 
+lassName="w-24"
+ 
+import { Input } from '';
+ 
+postcss
+ 
+{ ButtonHTMLAttributes }
+ 
+You can deliver
+ 
+cn('sticky top-0 bg-white shadow-lg shadow-black/5 z-10', className)}
+ 
+        <Container className="flex items-center justify-between">
+            <Categories />
+            <SortPopup />
+        </Container>
+ 
+import { Container } from 'postcss';
+import { Categories } from './categories';
+import { SortPopup } from './sort-popup';
+ 
+            <div className='flex flex-col gap-16'>
+                List of Items
+          </div>
+ 
+        </div>
+ 
+<Products />
+ 
+      <div style={{height: '3000px'}}></div>
+
+ 
+        <Categories />
+        <SortPopup />
+ 
+        <Categories />
+        <SortPopup />
+ 
+      {/* Component content */}
+ 
+export default TopBar;
+ 
+  // Define props here
+
+ 
+tns
+ 
+tsrfc
+ 
+import React from "react";
+
+interface Props {
+    className?: string;
+}
+
+export
+ 
+import { cn } from '@/lib/utils';
+ 
+<div className='', className)}>{children}</div>;
+ 
+eact.PropsWithChildren<Props
+ 
+Container
+ 
+import React from 'react';
+
+interface
+ 
+export const SortPopup: React.FC<Props> = ({ className }) => {
+    return (
+        <div className={cn("relative", className)}>
+            <Select
+                defaultValue={s
+ 
+import { Title } from "./title";
+ 
+        </Title>
+ 
+Radix Dialog</Title>
+ 
+Home
+ 
+Cart
+ 
+props: Props
+ 
+{
+	// Place your snippets for typescriptreact here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+}
+ 
+      <Button variant="outline">КОРЗИНА</Button>
+
+ 
+import { Button } from "@/components/ui/button";
+
+ 
+ {children}
+ 
+  description: "Generated by create next app",
+
+ 
+import Image from "next/image";
+ 
+
+    </main>
+ 

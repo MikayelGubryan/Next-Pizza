@@ -1,0 +1,3 @@
+enum ApiRoutes {
+    products = '/products'
+}
